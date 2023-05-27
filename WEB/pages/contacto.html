@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+
+</head>
+
+<body>
+    <header>
+        <nav id="menu" class="menu-navegator">
+            <a href="">
+                <img src="../images/3.jpg" alt="">
+
+                ARTIA WEB</a>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galería</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="formulario">
+            <form action="" method="post" enctype="text/plain">
+                <h2>Formulario de contacto</h2>
+
+
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Escriba su nombre aquí...">
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="ejemplo@ejemplo.com">
+                </div>
+                <div class="campo">
+                    <label for="asunto">Asunto:</label>
+                    <div class="dropdown">
+                        <select id="asunto" name="asunto">
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <option value="soporte">Web</option>
+                            <option value="ventas">Seo</option>
+                            <option value="consultas">Design</option>
+                        </select>
+                        <div class="campo">
+                            <label>Asunto:</label>
+                            <div class="opciones">
+                                <input type="radio" id="soporte" name="asunto" value="soporte" required>
+                                <label for="soporte">Soporte técnico</label>
+                                <br>
+                                <input type="radio" id="ventas" name="asunto" value="ventas">
+                                <label for="ventas">Ventas</label>
+                                <br>
+                                <input type="radio" id="consultas" name="asunto" value="consultas">
+                                <label for="consultas">Consultas generales</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" required placeholder="+34 660 555 444">
+                    </div>
+
+                    <div class="campo">
+                        <label for="fecha">Fecha cita:</label>
+                        <input type="date" id="fecha" name="fecha" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required
+                            placeholder="Escribe aquí tu mensaje..."></textarea>
+                    </div>
+
+                    <div class="campo">
+                        <label for="terminos">¿Acepta terminos y condiciones?</label>
+                        <input type="checkbox" name="terminos">
+                    </div>
+
+                    <div class="boton">
+                        <input type="submit" value="Enviar">
+                    </div>
+                    <div class="boton">
+                        <input type="reset" value="Resetear">
+                    </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Curso Coderhouse</p>
+    </footer>
+</body>
+
+
+</html>
