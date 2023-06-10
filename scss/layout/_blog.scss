@@ -1,0 +1,42 @@
+.row{
+    margin: 0;
+  }
+  
+  .btn-primary{
+    background-color: #143834;
+  border-color: #cc9544;
+  font-family: "poppins";
+  
+  }
+  
+  .btn-outline-primary{
+    background-color: #143834;
+    border-color: #cc9544;
+    font-family: "poppins";
+  }
+  
+  .set1{
+    color: $main-color;
+  }
+  .btn:hover{
+    background-color: #078072;
+    border-color: #cc9544;
+  }
+  
+  .carousel-inner, .carousel-item, .carousel-item img {
+    height: 800px;
+    object-fit: cover;  
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    }
+  
+  .carousel-caption{
+  color: $main-color;
+  font-size: 35px;
+  font-weight: bold;
+  
+  }
+  

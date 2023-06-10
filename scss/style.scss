@@ -1,0 +1,18 @@
+// Import Base
+@import 'base/vars';
+@import 'base/resets';
+@import 'base/utilities';
+
+//Import Components
+
+@import 'components/footer';
+@import 'components/navbar';
+
+//Import Layout
+@import 'layout/contacto';
+@import 'layout/index';
+@import 'layout/productos';
+@import 'layout/galeria';
+@import 'layout/blog';
+
+

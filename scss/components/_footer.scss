@@ -1,0 +1,22 @@
+  /*---------------*/ /* FOOTER*/ /*---------------*/
+  .footer {
+    margin-top: 800px;
+    background-color: #ec994b80;
+    /*display: inline-block;*/
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    flex-shrink: 0;
+  }
+  
+  .footer p {
+    color: #dee0e0;
+    font-size: 35px;
+    font-family: "poppins";
+    font-style: none;
+    text-align: center;
+    background-color: #14383493;
+    width: 100%;
+  }
+  
+  /*---------------*/ /* FIN FOOTER*/ /*---------------*/
